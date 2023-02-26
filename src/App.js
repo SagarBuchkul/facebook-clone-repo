@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import Sign_in_page from './Components/sign_in_page';
+import Login from './Components/Login';
 
 function App() {
   return (
     <div className="App">
       <Sign_in_page />
+      <Login />
       {/* <header className="App-header">
       <h1 className="text-3xl font-bold underline text-green-600">
       Hello world!
